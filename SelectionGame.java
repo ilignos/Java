@@ -2,7 +2,7 @@ import java.util.Random;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-public class TITAN_1 extends JFrame implements ActionListener {
+public class SelectionGame extends JFrame implements ActionListener {
     JFrame window = new JFrame("TITAN");
     JLabel l = new JLabel("VRES TON BILLARA");
     JButton b[] = new JButton[25];
