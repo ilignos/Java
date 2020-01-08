@@ -10,7 +10,7 @@ public class SelectionGame extends JFrame implements ActionListener {
     JPanel down = new JPanel();
     Random rand = new Random();
     int ran;
-    public TITAN_1()
+    public SelectionGame()
     {
         window.setSize(400,400);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -43,6 +43,6 @@ public class SelectionGame extends JFrame implements ActionListener {
     
     }
     public static void main(String[] args){
-        TITAN_1 g = new TITAN_1(); 
+        SelectionGame g = new SelectionGame(); 
                 }
 }
